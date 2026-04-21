@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirapop Top | Auditor & Accountant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="theme-toggle" id="theme-toggle">🌙</button>
+    <header>
+        <h1>Sirapop Top</h1>
+        <p>Auditor & Accountant</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Finance professional with hands-on experience in audit, accounting, and financial control. Reconciles complex portfolios, delivers actionable management insights, and streamlines processes for efficiency. Hands-on with ERP systems (SAP, Oracle) and tools (MS Office, SQL, Power BI).</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card"><h3>Project 1</h3></div>
+            <div class="project-card"><h3>Project 2</h3></div>
+            <div class="project-card"><h3>Project 3</h3></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+    </section>
+
+    <script>
+        const toggle = document.getElementById('theme-toggle');
+        toggle.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            if (currentTheme === 'light') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                toggle.textContent = '🌙';
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light');
+                toggle.textContent = '☀️';
+            }
+        });
+    </script>
+</body>
+</html>
