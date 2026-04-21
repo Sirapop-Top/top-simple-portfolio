@@ -12,7 +12,7 @@ A simple, clean, and responsive personal portfolio website built with HTML and C
 - CSS3
 
 ## Deployment
-This project is hosted on GitHub Pages.
+This project is hosted on GitHub Pages, deployed from the `/docs` directory.
 
 ## License
 This project is open-source and available under the MIT License.
