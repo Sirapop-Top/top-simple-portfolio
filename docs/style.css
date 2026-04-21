@@ -80,7 +80,7 @@ section { padding: 4rem 2rem; max-width: 800px; margin: 0 auto; }
 
 .theme-toggle {
     position: fixed;
-    top: 1.5rem;
+    bottom: 2rem;
     right: 2rem;
     cursor: pointer;
     background: var(--secondary-bg);
