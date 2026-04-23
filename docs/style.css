@@ -89,6 +89,23 @@ section { padding: 4rem 2rem; max-width: 800px; margin: 0 auto; }
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    z-index: 1000;
+}
+
+.lang-toggle {
+    position: fixed;
+    bottom: 2rem;
+    right: 5rem;
+    cursor: pointer;
+    background: var(--secondary-bg);
+    border: 1px solid var(--accent-color);
+    padding: 0.5rem;
+    border-radius: 6px;
+    width: 60px;
+    height: 40px;
+    color: var(--text-color);
+    font-weight: 600;
+    z-index: 1000;
 }
 
 .timeline {
