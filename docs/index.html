@@ -11,80 +11,81 @@
 </head>
 <body>
     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    <button class="lang-toggle" id="lang-toggle">EN/TH</button>
     
     <nav>
         <div class="logo">Sirapop Top</div>
         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about" data-lang-en="About" data-lang-th="เกี่ยวกับ">About</a></li>
+            <li><a href="#projects" data-lang-en="Projects" data-lang-th="โปรเจกต์">Projects</a></li>
+            <li><a href="#contact" data-lang-en="Contact" data-lang-th="ติดต่อ">Contact</a></li>
         </ul>
     </nav>
 
     <main>
         <section class="hero">
-            <h1>Sirapop Top</h1>
-            <p class="subtitle">Auditor & Accountant</p>
-            <p>Finance professional with hands-on experience in audit, accounting, and financial control.</p>
+            <h1 data-lang-en="Sirapop Top" data-lang-th="สิรภพ ท็อป">Sirapop Top</h1>
+            <p class="subtitle" data-lang-en="Auditor & Accountant" data-lang-th="ผู้สอบบัญชีและนักบัญชี">Auditor & Accountant</p>
+            <p data-lang-en="Finance professional with hands-on experience in audit, accounting, and financial control." data-lang-th="ผู้เชี่ยวชาญด้านการเงินที่มีประสบการณ์ในการสอบบัญชี การบัญชี และการควบคุมทางการเงิน">Finance professional with hands-on experience in audit, accounting, and financial control.</p>
         </section>
 
         <section id="about">
-            <h2>Professional Experience</h2>
+            <h2 data-lang-en="Professional Experience" data-lang-th="ประสบการณ์ทำงาน">Professional Experience</h2>
             <div class="timeline">
                 <div class="experience-item">
-                    <h3>Assistant Manager – Reconciliation & Financial Control</h3>
+                    <h3 data-lang-en="Assistant Manager – Reconciliation & Financial Control" data-lang-th="ผู้ช่วยผู้จัดการ – การกระทบยอดและการควบคุมทางการเงิน">Assistant Manager – Reconciliation & Financial Control</h3>
                     <p><strong>Bank of Ayudhya Public Company Limited</strong> | 2022 - present</p>
                     <ul>
-                        <li>Reconciled complex loans, CTS instruments, and property-for-sale accounts.</li>
-                        <li>Delivered monthly insights guiding management decisions.</li>
-                        <li>Advised on accounting for new products and regulatory changes.</li>
-                        <li>Led project-based engagements, correcting over ฿200M in discrepancies.</li>
+                        <li data-lang-en="Reconciled complex loans, CTS instruments, and property-for-sale accounts." data-lang-th="กระทบยอดสินเชื่อที่ซับซ้อน ตราสาร CTS และบัญชีทรัพย์สินรอการขาย">Reconciled complex loans, CTS instruments, and property-for-sale accounts.</li>
+                        <li data-lang-en="Delivered monthly insights guiding management decisions." data-lang-th="นำเสนอข้อมูลเชิงลึกรายเดือนเพื่อช่วยในการตัดสินใจของผู้บริหาร">Delivered monthly insights guiding management decisions.</li>
+                        <li data-lang-en="Advised on accounting for new products and regulatory changes." data-lang-th="ให้คำปรึกษาด้านการบัญชีสำหรับผลิตภัณฑ์ใหม่และการเปลี่ยนแปลงกฎระเบียบ">Advised on accounting for new products and regulatory changes.</li>
+                        <li data-lang-en="Led project-based engagements, correcting over ฿200M in discrepancies." data-lang-th="นำโครงการแก้ไขข้อผิดพลาดทางการเงินมูลค่ากว่า 200 ล้านบาท">Led project-based engagements, correcting over ฿200M in discrepancies.</li>
                     </ul>
                 </div>
                 <div class="experience-item">
-                    <h3>Senior Accountant</h3>
+                    <h3 data-lang-en="Senior Accountant" data-lang-th="นักบัญชีอาวุโส">Senior Accountant</h3>
                     <p><strong>Shopee Express (Thailand) Company Limited</strong> | 2021 - 2022</p>
                     <ul>
-                        <li>Developed SQL scripts to reconcile 20M+ COD transactions daily.</li>
-                        <li>Identified incorrect payments totaling over ฿10M.</li>
-                        <li>Delivered revenue and cost reports.</li>
+                        <li data-lang-en="Developed SQL scripts to reconcile 20M+ COD transactions daily." data-lang-th="พัฒนาสคริปต์ SQL เพื่อกระทบยอดธุรกรรม COD กว่า 20 ล้านรายการต่อวัน">Developed SQL scripts to reconcile 20M+ COD transactions daily.</li>
+                        <li data-lang-en="Identified incorrect payments totaling over ฿10M." data-lang-th="ระบุการจ่ายเงินที่ไม่ถูกต้องรวมมูลค่ากว่า 10 ล้านบาท">Identified incorrect payments totaling over ฿10M.</li>
+                        <li data-lang-en="Delivered revenue and cost reports." data-lang-th="จัดทำรายงานรายได้และต้นทุน">Delivered revenue and cost reports.</li>
                     </ul>
                 </div>
                 <div class="experience-item">
-                    <h3>Senior Auditor</h3>
+                    <h3 data-lang-en="Senior Auditor" data-lang-th="ผู้สอบบัญชีอาวุโส">Senior Auditor</h3>
                     <p><strong>EY Office Limited</strong> | 2017 - 2020</p>
                     <ul>
-                        <li>Audited 20+ entities across multiple industries.</li>
-                        <li>Implemented improved audit and control procedures.</li>
-                        <li>Led full audit cycles and supervised 5+ member team.</li>
-                        <li>Executed IFRS 16 (Leases) audits for 100+ contracts.</li>
+                        <li data-lang-en="Audited 20+ entities across multiple industries." data-lang-th="ตรวจสอบบัญชีบริษัทกว่า 20 แห่งในหลากหลายอุตสาหกรรม">Audited 20+ entities across multiple industries.</li>
+                        <li data-lang-en="Implemented improved audit and control procedures." data-lang-th="ปรับปรุงขั้นตอนการตรวจสอบบัญชีและการควบคุมภายใน">Implemented improved audit and control procedures.</li>
+                        <li data-lang-en="Led full audit cycles and supervised 5+ member team." data-lang-th="ดูแลวงจรการตรวจสอบบัญชีและบริหารทีมงานกว่า 5 คน">Led full audit cycles and supervised 5+ member team.</li>
+                        <li data-lang-en="Executed IFRS 16 (Leases) audits for 100+ contracts." data-lang-th="ตรวจสอบสัญญาเช่าตามมาตรฐาน IFRS 16 สำหรับสัญญากว่า 100 ฉบับ">Executed IFRS 16 (Leases) audits for 100+ contracts.</li>
                     </ul>
                 </div>
             </div>
         </section>
 
         <section id="projects">
-            <h2>Projects</h2>
+            <h2 data-lang-en="Projects" data-lang-th="โปรเจกต์">Projects</h2>
             <div class="project-grid">
                 <div class="project-card">
-                    <h3>Financial Audit Analysis</h3>
-                    <p>Streamlined reconciliation processes using SQL and Power BI.</p>
+                    <h3 data-lang-en="Financial Audit Analysis" data-lang-th="การวิเคราะห์ตรวจสอบบัญชี">Financial Audit Analysis</h3>
+                    <p data-lang-en="Streamlined reconciliation processes using SQL and Power BI." data-lang-th="เพิ่มประสิทธิภาพกระบวนการกระทบยอดด้วย SQL และ Power BI">Streamlined reconciliation processes using SQL and Power BI.</p>
                 </div>
                 <div class="project-card">
-                    <h3>ERP Implementation</h3>
-                    <p>Contributed to successful SAP migration and data mapping.</p>
+                    <h3 data-lang-en="ERP Implementation" data-lang-th="การติดตั้งระบบ ERP">ERP Implementation</h3>
+                    <p data-lang-en="Contributed to successful SAP migration and data mapping." data-lang-th="มีส่วนร่วมในการย้ายฐานข้อมูลและติดตั้ง SAP">Contributed to successful SAP migration and data mapping.</p>
                 </div>
                 <div class="project-card">
-                    <h3>Tax Compliance</h3>
-                    <p>Automated reporting to ensure 100% regulatory alignment.</p>
+                    <h3 data-lang-en="Tax Compliance" data-lang-th="การปฏิบัติตามกฎหมายภาษี">Tax Compliance</h3>
+                    <p data-lang-en="Automated reporting to ensure 100% regulatory alignment." data-lang-th="รายงานอัตโนมัติเพื่อให้มั่นใจว่าสอดคล้องกับกฎระเบียบ 100%">Automated reporting to ensure 100% regulatory alignment.</p>
                 </div>
             </div>
         </section>
 
         <section id="contact">
-            <h2>Contact</h2>
-            <p>Ready to discuss financial insights or audit optimization? Let's connect.</p>
-            <a href="mailto:sirapop_top@hotmail.com" class="btn">Email Me</a>
+            <h2 data-lang-en="Contact" data-lang-th="ติดต่อ">Contact</h2>
+            <p data-lang-en="Ready to discuss financial insights or audit optimization? Let's connect." data-lang-th="พร้อมที่จะพูดคุยเกี่ยวกับข้อมูลเชิงลึกทางการเงินหรือการเพิ่มประสิทธิภาพการตรวจสอบบัญชีแล้วหรือยัง? ติดต่อได้เลย">Ready to discuss financial insights or audit optimization? Let's connect.</p>
+            <a href="mailto:sirapop_top@hotmail.com" class="btn" data-lang-en="Email Me" data-lang-th="ส่งอีเมลถึงฉัน">Email Me</a>
         </section>
     </main>
 
@@ -99,6 +100,16 @@
             document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
             toggle.textContent = isDark ? '🌙' : '☀️';
         });
+
+        const langToggle = document.getElementById('lang-toggle');
+        let currentLang = 'en';
+        langToggle.addEventListener('click', () => {
+            currentLang = currentLang === 'en' ? 'th' : 'en';
+            document.querySelectorAll('[data-lang-en]').forEach(el => {
+                el.textContent = el.getAttribute(`data-lang-${currentLang}`);
+            });
+        });
     </script>
+
 </body>
 </html>
